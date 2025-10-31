@@ -10,7 +10,7 @@ const TaskSchema = new mongoose.Schema(
     },
     title: { type: String, required: true },
     description: { type: String },
-    dueAt: { type: Date }, // optional
+    dueAt: { type: Date },
     completed: { type: Boolean, default: false },
     reminderJobId: { type: String }, // store Agenda job id for cancellation
   },
