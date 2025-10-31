@@ -157,3 +157,43 @@ If you want to test quickly:
 5. Set `REMINDER_MINUTES=1` in your `.env` file to test quickly  
 6. Create a task with `dueAt = now + 2 minutes` (use the frontend date/time picker or provide an ISO date)  
 7. Watch backend logs — about 1 minute before the due time, you will see an email printed or sent
+
+
+## References
+
+The following resources and official documentation were used while building and understanding this project:
+
+1. **Node.js Documentation** – [https://nodejs.org/en/docs](https://nodejs.org/en/docs)  
+   Used for setting up the backend server and handling asynchronous operations.
+
+2. **Express.js Documentation** – [https://expressjs.com](https://expressjs.com)  
+   Used for routing, middleware, and REST API creation.
+
+3. **MongoDB Documentation** – [https://www.mongodb.com/docs](https://www.mongodb.com/docs)  
+   Used to design and integrate the MongoDB database and collections.
+
+4. **Mongoose ODM Documentation** – [https://mongoosejs.com/docs/](https://mongoosejs.com/docs/)  
+   Used for defining schemas, models, and interacting with MongoDB in Node.js.
+
+5. **Agenda.js GitHub Repository** – [https://github.com/agenda/agenda](https://github.com/agenda/agenda)  
+   Used for creating background jobs and scheduling reminder tasks.
+
+6. **Nodemailer Documentation** – [https://nodemailer.com/about/](https://nodemailer.com/about/)  
+   Used for sending reminder emails and handling SMTP configuration.
+
+7. **React Documentation** – [https://react.dev/](https://react.dev/)  
+   Used for building the frontend UI and handling components.
+
+8. **Vite Documentation** – [https://vitejs.dev/guide/](https://vitejs.dev/guide/)  
+   Used as the frontend development build tool for React.
+
+9. **JSON Web Token (JWT) Documentation** – [https://jwt.io/introduction/](https://jwt.io/introduction/)  
+   Used for implementing secure user authentication.
+
+10. **bcrypt.js GitHub Repository** – [https://github.com/kelektiv/node.bcrypt.js/](https://github.com/kelektiv/node.bcrypt.js/)  
+    Used for password hashing before saving user credentials in MongoDB.
+
+
+
+---
+
